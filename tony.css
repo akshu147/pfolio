@@ -1,0 +1,496 @@
+* {
+    color: black;
+    transition: 0.4s;
+}
+
+body {
+    font-family: Arial;
+    background-image: linear-gradient(lightblue, lightblue, lightblue)
+}
+
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+
+    float: right;
+    border-radius: 20px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    border: none;
+
+
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: lightblue;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 100px 12px;
+    border: 1px solid #ccc;
+
+}
+
+.name {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.aaa {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: inline-block;
+
+}
+
+.bbb {
+    border: 1px solid black;
+    height: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+#ab {
+    background-color: darkorange;
+    width: 170px;
+    color: black;
+
+}
+
+#bb {
+    background-color: darkorange;
+    width: 160px;
+    color: black;
+
+}
+
+b {
+    margin-left: 10px;
+}
+
+#ac {
+
+    width: 120px;
+    color: black;
+    background-color: darkorange;
+    
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 20px;
+    text-indent: 20px;
+    margin-top: 100px;
+
+}
+
+legend {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px 30px 10px 30px;
+}
+
+.menbox {
+
+    border-radius: 10px 30px 10px 30px;
+
+    padding: 20px;
+
+
+
+}
+
+#ba {
+
+    width: 140px;
+    color: black;
+    background-color: darkorange;
+
+}
+
+#bc {
+
+    width: 150px;
+    color: black;
+    background-color: darkorange;
+
+}
+
+#bd {
+
+    width: 110px;
+    color: black;
+    background-color: darkorange;
+
+}
+
+#be {
+
+    width: 100px;
+    color: black;
+    background-color: darkorange;
+
+}
+
+#bf {
+    width: 150px;
+    color: black;
+    background-color: darkorange;
+
+}
+
+#ag {
+
+    width: 160px;
+    color: black;
+    background-color: darkorange;
+
+}
+
+#ah {
+
+    width: 90px;
+    color: black;
+    background-color: darkorange;
+
+}
+
+#ai {
+
+    width: 50px;
+    color: black;
+    background-color: darkorange;
+
+}
+
+#aj {
+
+    width: 40px;
+    color: black;
+    background-color: darkorange;
+
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px 50px;
+    position: absolute;
+    position:sticky;
+    position:-webkit-sticky;
+    bottom: 0;
+    z-index: -1;
+}
+.x {text-align: center;}
+.x img {
+    border-radius: 20px;
+    margin-top:-100px;
+}
+#About fieldset {
+    border:4px solid black;
+    border-top-color: yellow;
+    border-top-width:10px;
+}
+mark {
+    border-radius: 20px;
+    padding:10px;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .tab .tablinks {
+        background-color: yellow;
+        font-size: 40px;
+    }
+
+    .tab {
+        margin: auto;
+    }
+
+    fieldset {
+        font-size: 35px;
+    }
+
+    .menbox {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bbb {
+        width: 400px;
+    }
+
+
+}
+
+.homebox1 {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    border-top-left-radius: 100%;
+    background-image: url("suni2.jpg");
+    background-size: cover;
+    margin: 5px;
+
+}
+
+.homebox2 {
+
+
+   
+    margin:5px;
+    width: 60px;
+    height: 60px;
+    background-image: url("IMG_20221123_173145.jpg");
+    background-size: cover;
+    border-radius: 5px;
+
+
+    border-top-right-radius: 100%;
+
+
+
+}
+
+.homebox3 {
+    margin:5px;
+    background-size: cover;
+ 
+
+
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    border-bottom-left-radius: 100%;
+    background-image: url("suni3.jpg")
+
+
+}
+
+.homebox4 {
+    
+    margin:5px;
+    background-size: cover;
+
+
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    border-bottom-right-radius: 100%;
+    background-image: url("https://t4.ftcdn.net/jpg/06/54/76/35/240_F_654763571_3ZFQEMEtUqKvDsAAiGwGJu93nPNhcMV5.jpg")
+
+
+
+}
+
+#Home .design {
+
+    height:140px;
+    width:140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+ 
+    
+  
+    
+
+}
+
+.homebox2:hover {
+    border-radius: 7px 7px 7px 7px;
+    height: 140px;
+    width:140px;
+}
+.homebox1:hover {
+    border-radius: 7px 7px 7px 7px;
+    height: 140px;
+    width:140px;
+}
+.homebox3:hover {
+    border-radius: 7px 7px 7px 7px;
+    height: 140px;
+    width:140px;
+   
+}
+.homebox4:hover {
+    border-radius: 7px 7px 7px 7px;
+    height: 140px;
+    width:140px;
+}
+/* .homebox1, .homebox2, .homebox3, .homebox4 {
+    
+} */
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    .tab .tablinks {
+        background-color: yellow;
+        font-size: 40px;
+       
+    }
+
+    .tab {
+        margin: auto;
+        position: absolute;
+        top:130px;
+        left:170px;
+     
+    }
+
+    fieldset {
+        font-size: 35px;
+    }
+
+    .menbox {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bbb {
+        width: 400px;
+    }
+    .aaa {
+        margin: 20px;
+    }
+    #ab {
+        background-color: orange;
+        width:350px;
+        font-size:20px;
+    }
+    #bb {
+        width:360px;
+        font-size: 20px;
+        
+
+
+    }
+    #ac {
+        width:300px;
+        font-size: 20px;
+
+
+    }
+    #ba {
+        /* mysql */
+        width:350px;
+        font-size: 20px;
+
+
+    }
+    #bc {
+        /* mongodb */
+        width:350px;
+        font-size: 20px;
+
+    }
+    #bd {
+        /* reactjs */
+        width:260px;
+        font-size: 20px;
+
+    }#be {
+        width:200px;
+        font-size: 20px;
+/* nodejs */
+    }
+    #bf {
+        width:240px;
+        font-size: 20px;
+        /* express.js */
+
+    }
+    #ag {
+        width:300px;
+        font-size: 20px;
+        /* jquery */
+
+    }
+    #ah {
+        /* bootstrap */
+        width:190px;
+        font-size: 20px;
+
+    }
+    #ai {
+        width:120px;
+        font-size: 20px;
+        /* python */
+
+    }
+    #aj {
+        width:150px;
+        font-size: 20px;
+        /* cpp */
+
+    }
+    .x {
+        margin-top:150px;
+    }
+    footer {
+        width:600px;
+    }
+    .design {
+        margin-top: -80px;
+    }
+    .name {
+        font-size: 60px;
+        text-align: center;
+    }
+ 
+
+
+}

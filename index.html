@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="tony.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-g"
+<link rel="stylesheet" href="tony.css">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+    <div class="name"><i>𝓡𝓮𝓼𝓾𝓶𝓮</i></div>
+
+
+
+<div class="tab">
+  <button id="prince" class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'experience')">Skills</button>
+  <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+</div>
+<!-- _______________________________________________________________________________________________ -->
+
+
+<div id="Home" class="tabcontent">
+  <div class="design">
+  <div class="homebox1"></div>
+  <div class="homebox2"></div>
+  <div class="homebox3"></div>
+  <div class="homebox4"></div>
+  </div>
+  <div class="x">
+  <img src="resume.png">
+  </div>
+
+ 
+
+
+  </div>
+ 
+
+  
+</div>
+<!-- _______________________________________________________________________________________________ -->
+
+
+<div id="experience" class="tabcontent">
+
+  <fieldset>
+    <h1>Skills</h1>
+    <div class="menbox">
+        <div class="aaa">
+            <div class="bbb">
+    
+                <div class="ccc" id="ab"><b>HTML</b></div>
+            </div>
+            <div class="bbb">
+                <div class="ccc" id="bb"><b>CSS</b></div>
+            </div>
+            <div class="bbb">
+                <div class="ccc" id="ac"><b>javascript</b></div>
+            </div>
+        </div>
+    
+    
+    
+        <div class="aaa">
+            <div class="bbb">
+    
+                <div class="ccc" id="ba"><b>MYSQL</b></div>
+            </div>
+            <div class="bbb">
+                <div class="ccc" id="bc"><b>MONGODB</b></div>
+            </div>
+            <div class="bbb">
+    
+                <div class="ccc" id="bd"><b>REACT JS</b></div>
+            </div>
+        </div>
+    
+    
+    
+        <div class="aaa">
+            <div class="bbb">
+    
+                <div class="ccc" id="be"><b>NODE JS</b></div>
+            </div>
+            <div class="bbb">
+                <div class="ccc" id="bf"><b>EXPRESS JS</b></div>
+            </div>
+            <div class="bbb">
+                <div class="ccc" id="ag"><b>JQUERY</b></div>
+            </div>
+        </div>
+    
+    
+    
+    
+        <div class="aaa">
+            <div class="bbb">
+    
+                <div class="ccc" id="ah"><b>BOOTSTRAP</b></div>
+            </div>
+            <div class="bbb">
+                <div class="ccc" id="ai"><b>python</b></div>
+            </div>
+            <div class="bbb">
+                <div class="ccc" id="aj"><b>cpp</b></div>
+            </div>
+        </div>
+  </fieldset>
+  
+</div>
+<!-- _______________________________________________________________________________________________ -->
+
+
+<div id="About" class="tabcontent">
+    <fieldset>
+  <h3>About</h3>
+  <p>Hello my name is Sunil jangid. and i am from jodhpur. my <u>BA</u> 2nd year is running from vardhmaan
+    mahavir open univercity now i am leaving this and preparing for <u>Bachlor of computer
+        application</u> i want to be a professional full stack devloper.
+    and i preparing this from 1.8 years. i know some technologis like html and css. i am frasher till now. and this is my frist project.
+    my hobby is coding, acting and programing. and this both are my passion.i have deploma in industrial trading
+    institute {iti} in stenography. </p>
+    <mark>sumsajangid2002@gmail.com</mark>
+    </fieldset>
+    
+</div>
+
+<script>
+document.getElementById("prince").click();
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+  
+  
+}
+</script>
+<footer>
+    
+</footer>
+   
+</body>
+</html> 
